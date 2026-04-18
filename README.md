@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Instalação Global (Rodar de qualquer lugar)
+## Instalação Global (Rodar de qualquer lugar)
 
 O Nasai Maestro 9.0 está disponível como um comando global no seu sistema. Após a configuração inicial não é necessário estar no diretório do projeto.
 
