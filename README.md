@@ -1,4 +1,4 @@
-# NASAI MAESTRO 9.0 🎯
+# NASAI MAESTRO 9.0 
 
 **Autonomous, Local-First AI Agent for Dynamic Red Teaming & 0-Day Research**
 
@@ -26,7 +26,7 @@ sudo ln -sf "$(pwd)/nasai-wrapper.sh" /usr/local/bin/nasai
 
 ---
 
-## ⚡ Comandos & Modos de Uso
+## Comandos & Modos de Uso
 
 ### 1. Modo AI Agent (Linguagem Natural)
 
@@ -62,7 +62,7 @@ nasai --redteam target.com --0day
 
 ---
 
-### 3. Modo 0-Day Hunt (`--0day`) ⚠️
+### 3. Modo 0-Day Hunt (`--0day`) 
 
 **Novo no Maestro 9.0.** Aciona a `ZeroDayHunterEngine` diretamente — fuzzing agressivo de protocolos via raw sockets (Node.js `net`/`tls`), análise heurística de respostas anômalas e detecção autônoma de falhas inéditas.
 
@@ -109,7 +109,7 @@ nasai -h
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 nasai/
@@ -182,7 +182,7 @@ CATEGORIAS:
 
 ---
 
-## 🧪 Testes & Avaliação
+## Testes & Avaliação
 
 ### Benchmarks do Core
 
