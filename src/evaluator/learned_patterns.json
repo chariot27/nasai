@@ -1,0 +1,597 @@
+[
+  {
+    "keyword": "injection",
+    "count": 1,
+    "category": "XSS",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:00:53.165Z"
+  },
+  {
+    "keyword": "aprendete1",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:06.213Z"
+  },
+  {
+    "keyword": "aprendete2",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:06.918Z"
+  },
+  {
+    "keyword": "aprendete3",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:07.612Z"
+  },
+  {
+    "keyword": "aprendete4",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:08.322Z"
+  },
+  {
+    "keyword": "aprendete5",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:09.140Z"
+  },
+  {
+    "keyword": "aprendete6",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:09.798Z"
+  },
+  {
+    "keyword": "aprendete7",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:10.499Z"
+  },
+  {
+    "keyword": "aprendete8",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:11.195Z"
+  },
+  {
+    "keyword": "aprendete9",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:11.898Z"
+  },
+  {
+    "keyword": "aprendete10",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:12.595Z"
+  },
+  {
+    "keyword": "aprendete11",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:13.278Z"
+  },
+  {
+    "keyword": "aprendete12",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:13.970Z"
+  },
+  {
+    "keyword": "aprendete13",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:14.690Z"
+  },
+  {
+    "keyword": "aprendete14",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:15.407Z"
+  },
+  {
+    "keyword": "aprendete15",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:16.105Z"
+  },
+  {
+    "keyword": "aprendete16",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:16.821Z"
+  },
+  {
+    "keyword": "aprendete17",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:17.510Z"
+  },
+  {
+    "keyword": "aprendete18",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:18.186Z"
+  },
+  {
+    "keyword": "aprendete19",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:19.017Z"
+  },
+  {
+    "keyword": "aprendete20",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:19.839Z"
+  },
+  {
+    "keyword": "aprendete21",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:21.426Z"
+  },
+  {
+    "keyword": "aprendete22",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:22.138Z"
+  },
+  {
+    "keyword": "aprendete23",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:22.904Z"
+  },
+  {
+    "keyword": "aprendete24",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:23.646Z"
+  },
+  {
+    "keyword": "aprendete25",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:24.366Z"
+  },
+  {
+    "keyword": "aprendete26",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:25.089Z"
+  },
+  {
+    "keyword": "aprendete27",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:02:25.799Z"
+  },
+  {
+    "keyword": "idor",
+    "count": 27,
+    "category": "IDOR",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:06:11.869Z"
+  },
+  {
+    "keyword": "information",
+    "count": 27,
+    "category": "Info",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:06:12.599Z"
+  },
+  {
+    "keyword": "disclosure",
+    "count": 27,
+    "category": "Info",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:06:12.599Z"
+  },
+  {
+    "keyword": "permission",
+    "count": 27,
+    "category": "IDOR",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:06:13.331Z"
+  },
+  {
+    "keyword": "bypass",
+    "count": 81,
+    "category": "Bypass",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:08:22.366Z"
+  },
+  {
+    "keyword": "access",
+    "count": 27,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:06:14.013Z"
+  },
+  {
+    "keyword": "control",
+    "count": 27,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:06:14.014Z"
+  },
+  {
+    "keyword": "ddos",
+    "count": 27,
+    "category": "DoS",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:08:20.948Z"
+  },
+  {
+    "keyword": "flood",
+    "count": 27,
+    "category": "DoS",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:08:20.949Z"
+  },
+  {
+    "keyword": "websocket",
+    "count": 27,
+    "category": "WebSocket",
+    "context": "Web Application",
+    "last_seen": "2026-04-18T03:11:20.100Z"
+  },
+  {
+    "keyword": "hijack",
+    "count": 27,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:11:20.100Z"
+  },
+  {
+    "keyword": "cross",
+    "count": 62,
+    "category": "CSRF",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:52.260Z"
+  },
+  {
+    "keyword": "site",
+    "count": 62,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:52.260Z"
+  },
+  {
+    "keyword": "hijacking",
+    "count": 27,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:11:20.848Z"
+  },
+  {
+    "keyword": "ssrf",
+    "count": 62,
+    "category": "SSRF",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:53.667Z"
+  },
+  {
+    "keyword": "server",
+    "count": 27,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:11:22.289Z"
+  },
+  {
+    "keyword": "side",
+    "count": 27,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:11:22.290Z"
+  },
+  {
+    "keyword": "request",
+    "count": 62,
+    "category": "SSRF",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:52.260Z"
+  },
+  {
+    "keyword": "forgery",
+    "count": 62,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:52.260Z"
+  },
+  {
+    "keyword": "internal",
+    "count": 62,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:53.667Z"
+  },
+  {
+    "keyword": "cloud",
+    "count": 62,
+    "category": "General",
+    "context": "Cloud",
+    "last_seen": "2026-04-18T03:17:54.369Z"
+  },
+  {
+    "keyword": "metadata",
+    "count": 62,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:55.068Z"
+  },
+  {
+    "keyword": "csrf",
+    "count": 35,
+    "category": "CSRF",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:51.537Z"
+  },
+  {
+    "keyword": "state",
+    "count": 35,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:52.962Z"
+  },
+  {
+    "keyword": "change",
+    "count": 35,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:52.963Z"
+  },
+  {
+    "keyword": "google",
+    "count": 35,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:54.369Z"
+  },
+  {
+    "keyword": "modsecurity",
+    "count": 35,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:56.472Z"
+  },
+  {
+    "keyword": "bypasswaf",
+    "count": 35,
+    "category": "Bypass",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:57.158Z"
+  },
+  {
+    "keyword": "stored",
+    "count": 34,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:49.391Z"
+  },
+  {
+    "keyword": "reflected",
+    "count": 34,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:17:50.110Z"
+  },
+  {
+    "keyword": "faça",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:18:38.811Z"
+  },
+  {
+    "keyword": "pentest",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:18:39.597Z"
+  },
+  {
+    "keyword": "bancocn.com",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:18:40.336Z"
+  },
+  {
+    "keyword": "recon",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:18:59.150Z"
+  },
+  {
+    "keyword": "passivo",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:18:59.883Z"
+  },
+  {
+    "keyword": "basico",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:19:00.631Z"
+  },
+  {
+    "keyword": "analise",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:20:58.774Z"
+  },
+  {
+    "keyword": "output:",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:20:59.511Z"
+  },
+  {
+    "keyword": "┌──(noname㉿kali)-[~/área",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:00.254Z"
+  },
+  {
+    "keyword": "trabalho/work/nasai]",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:00.980Z"
+  },
+  {
+    "keyword": "╔═══════════════════════════════════════════════════╗",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:01.753Z"
+  },
+  {
+    "keyword": "nasai-maestro",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:02.529Z"
+  },
+  {
+    "keyword": "v2.0",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:03.278Z"
+  },
+  {
+    "keyword": "╚═══════════════════════════════════════════════════╝",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:04.053Z"
+  },
+  {
+    "keyword": "prompt:",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:04.791Z"
+  },
+  {
+    "keyword": "processing:",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:05.570Z"
+  },
+  {
+    "keyword": "thinking...",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:06.373Z"
+  },
+  {
+    "keyword": "(iteration",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:07.123Z"
+  },
+  {
+    "keyword": "executing",
+    "count": 1,
+    "category": "RCE",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:07.859Z"
+  },
+  {
+    "keyword": "tool:",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:08.588Z"
+  },
+  {
+    "keyword": "run_shell",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:09.326Z"
+  },
+  {
+    "keyword": "args:",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:10.106Z"
+  },
+  {
+    "keyword": "{command:echo",
+    "count": 1,
+    "category": "RCE",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:10.839Z"
+  },
+  {
+    "keyword": "real",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:11.587Z"
+  },
+  {
+    "keyword": "identique",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:52.830Z"
+  },
+  {
+    "keyword": "vulnerabilidades",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:53.569Z"
+  },
+  {
+    "keyword": "dominio",
+    "count": 1,
+    "category": "General",
+    "context": "Web",
+    "last_seen": "2026-04-18T03:21:54.358Z"
+  }
+]

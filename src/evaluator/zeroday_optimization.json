@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-04-18T02:58:03.724Z",
+  "baseline_accuracy": 0.693,
+  "final_accuracy": 0.945054945054945,
+  "target_accuracy": 0.9,
+  "by_difficulty": {
+    "critical": 0.9698275862068966,
+    "high": 0.9603174603174603,
+    "medium": 0.9494949494949495,
+    "low": 0.8991228070175439
+  },
+  "optimization_steps": [
+    {
+      "epoch": 1,
+      "accuracy": 0.945054945054945,
+      "critical": 0.9698275862068966,
+      "high": 0.9603174603174603,
+      "medium": 0.9494949494949495,
+      "low": 0.8991228070175439,
+      "improvement": 0.2659340659340659,
+      "action": "Adicionar 50 casos de vulnerabilidades críticas"
+    }
+  ],
+  "recommendations": [
+    "Continuar treinamento com dados críticos",
+    "Adicionar mais edge cases",
+    "Fine-tune com-learning de resultados"
+  ]
+}

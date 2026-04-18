@@ -1,0 +1,56 @@
+{
+  "name": "nasai",
+  "version": "9.0.0",
+  "description": "Nasai Maestro 9.0 — Autonomous Red Team AI Agent with 0-Day Hunting",
+  "module": "nasai.ts",
+  "type": "module",
+  "bin": {
+    "nasai": "./nasai.ts"
+  },
+  "scripts": {
+    "dev": "bun run nasai.ts",
+    "tdd": "bun run src/tdd_engine.ts",
+    "flex": "bun run src/flexible_ai.ts",
+    "test": "bun run src/tdd_engine.ts",
+    "db:up": "docker-compose up -d",
+    "db:down": "docker-compose down",
+    "test:gen": "bun run src/evaluator/generate_cases.ts",
+    "test:eval": "bun run src/evaluator/runner.ts",
+    "test:learn": "bun run src/evaluator/runner_learn.ts",
+    "test:learn:interactive": "bun run src/evaluator/runner_learn.ts interactive",
+    "test:redteam:gen": "bun run src/evaluator/redteam_collector.ts",
+    "test:redteam:eval": "bun run src/evaluator/redteam_runner.ts",
+    "test:redteam:interactive": "bun run src/evaluator/redteam_runner.ts interactive",
+    "test:redteam:train": "bun run src/evaluator/redteam_runner.ts train",
+    "test:zeroday:gen": "bun run src/evaluator/zeroday_collector.ts",
+    "test:zeroday:eval": "bun run src/evaluator/zeroday_runner.ts",
+    "test:zeroday:opt": "bun run src/evaluator/zeroday_optimizer.ts 0.90",
+    "test:real:pentest": "bun run src/evaluator/real_pentest.ts",
+    "learn": "bun run src/evaluator/dynamic_collector.ts learn",
+    "generate": "bun run src/evaluator/dynamic_collector.ts generate",
+    "test:massive": "bun run src/evaluator/massive_evaluator.ts",
+    "test:cve:gen": "bun run src/evaluator/generate_cve_cases.ts",
+    "test:cve:eval": "bun run src/evaluator/runner_cve.ts",
+    "test:final:gen": "bun run src/evaluator/generate_final_cases.ts",
+    "test:final:eval": "bun run src/evaluator/runner_final.ts",
+    "test:redteam:web": "bun run src/evaluator/redteam_web_evaluator.ts"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "ink": "^5.0.0",
+    "pdf-parse": "^1.1.4",
+    "pg": "^8.11.5",
+    "react": "^18.2.0",
+    "zod": "^3.23.6",
+    "zod-to-json-schema": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.0",
+    "@types/node": "^20.12.7",
+    "@types/pg": "^8.11.5",
+    "@types/react": "^18.2.79",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,1167 @@
+[
+  {
+    "id": "EVALv2-EASY-1",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Verifique o status do git no repositório atual. (Variante 1)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-2",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Leia o arquivo docker-compose.yml e me diga as portas mapeadas. (Variante 2)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-3",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Encontre todos os arquivos .ts modificados hoje. (Variante 3)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-4",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Crie um arquivo .gitignore para um projeto Node.js. (Variante 4)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-5",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Rode npm run lint e reporte os arquivos com erro. (Variante 5)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-6",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo package.json e verifique se o 'helmet' (segurança) está instalado. (Variante 6)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-7",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Faça um grep procurando por senhas hardcoded em env.example. (Variante 7)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-8",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Verifique o status do git no repositório atual. (Variante 8)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-9",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Leia o arquivo docker-compose.yml e me diga as portas mapeadas. (Variante 9)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-10",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Encontre todos os arquivos .ts modificados hoje. (Variante 10)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-11",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Crie um arquivo .gitignore para um projeto Node.js. (Variante 11)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-12",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Rode npm run lint e reporte os arquivos com erro. (Variante 12)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-13",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo package.json e verifique se o 'helmet' (segurança) está instalado. (Variante 13)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-14",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Faça um grep procurando por senhas hardcoded em env.example. (Variante 14)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-15",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Verifique o status do git no repositório atual. (Variante 15)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-16",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Leia o arquivo docker-compose.yml e me diga as portas mapeadas. (Variante 16)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-17",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Encontre todos os arquivos .ts modificados hoje. (Variante 17)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-18",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Crie um arquivo .gitignore para um projeto Node.js. (Variante 18)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-19",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Rode npm run lint e reporte os arquivos com erro. (Variante 19)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-20",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo package.json e verifique se o 'helmet' (segurança) está instalado. (Variante 20)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-21",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Faça um grep procurando por senhas hardcoded em env.example. (Variante 21)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-22",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Verifique o status do git no repositório atual. (Variante 22)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-23",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Leia o arquivo docker-compose.yml e me diga as portas mapeadas. (Variante 23)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-24",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Encontre todos os arquivos .ts modificados hoje. (Variante 24)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-25",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Crie um arquivo .gitignore para um projeto Node.js. (Variante 25)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-26",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Rode npm run lint e reporte os arquivos com erro. (Variante 26)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-27",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo package.json e verifique se o 'helmet' (segurança) está instalado. (Variante 27)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-28",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Faça um grep procurando por senhas hardcoded em env.example. (Variante 28)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-29",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Verifique o status do git no repositório atual. (Variante 29)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-30",
+    "difficulty": "easy",
+    "category": "DevOps",
+    "prompt": "Leia o arquivo docker-compose.yml e me diga as portas mapeadas. (Variante 30)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-31",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Encontre todos os arquivos .ts modificados hoje. (Variante 31)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-32",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Crie um arquivo .gitignore para um projeto Node.js. (Variante 32)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-33",
+    "difficulty": "easy",
+    "category": "Software Engineering",
+    "prompt": "Rode npm run lint e reporte os arquivos com erro. (Variante 33)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-34",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo package.json e verifique se o 'helmet' (segurança) está instalado. (Variante 34)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-EASY-35",
+    "difficulty": "easy",
+    "category": "Defensive Security",
+    "prompt": "Faça um grep procurando por senhas hardcoded em env.example. (Variante 35)",
+    "expected_tools": [
+      "run_shell",
+      "read_file"
+    ],
+    "expected_outcome": "Comando executado com sucesso e contexto compreendido corretamente na primeira tentativa."
+  },
+  {
+    "id": "EVALv2-MED-36",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo auth.js e substitua a geração de hash MD5 pela biblioteca bcrypt. (Variante 1)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-37",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Audite o arquivo server.ts para vulnerabilidades de SQL Injection e implemente prepared statements. (Variante 2)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-38",
+    "difficulty": "medium",
+    "category": "Software Engineering",
+    "prompt": "Procure pela função 'calculateTax', entenda sua lógica, e extraia ela para um novo arquivo mathUtils.ts. (Variante 3)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-39",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Atualize todas as dependências do React no package.json e rode o install. (Variante 4)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-40",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Leia o script de deploy.sh, encontre onde as credenciais estão em plain text, e as modifique para carregar do ambiente ($AWS_KEY). (Variante 5)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-41",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Implemente um middleware de Rate Limiting simples no index.ts para prevenir ataques de força bruta. (Variante 6)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-42",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo auth.js e substitua a geração de hash MD5 pela biblioteca bcrypt. (Variante 7)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-43",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Audite o arquivo server.ts para vulnerabilidades de SQL Injection e implemente prepared statements. (Variante 8)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-44",
+    "difficulty": "medium",
+    "category": "Software Engineering",
+    "prompt": "Procure pela função 'calculateTax', entenda sua lógica, e extraia ela para um novo arquivo mathUtils.ts. (Variante 9)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-45",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Atualize todas as dependências do React no package.json e rode o install. (Variante 10)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-46",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Leia o script de deploy.sh, encontre onde as credenciais estão em plain text, e as modifique para carregar do ambiente ($AWS_KEY). (Variante 11)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-47",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Implemente um middleware de Rate Limiting simples no index.ts para prevenir ataques de força bruta. (Variante 12)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-48",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo auth.js e substitua a geração de hash MD5 pela biblioteca bcrypt. (Variante 13)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-49",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Audite o arquivo server.ts para vulnerabilidades de SQL Injection e implemente prepared statements. (Variante 14)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-50",
+    "difficulty": "medium",
+    "category": "Software Engineering",
+    "prompt": "Procure pela função 'calculateTax', entenda sua lógica, e extraia ela para um novo arquivo mathUtils.ts. (Variante 15)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-51",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Atualize todas as dependências do React no package.json e rode o install. (Variante 16)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-52",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Leia o script de deploy.sh, encontre onde as credenciais estão em plain text, e as modifique para carregar do ambiente ($AWS_KEY). (Variante 17)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-53",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Implemente um middleware de Rate Limiting simples no index.ts para prevenir ataques de força bruta. (Variante 18)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-54",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo auth.js e substitua a geração de hash MD5 pela biblioteca bcrypt. (Variante 19)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-55",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Audite o arquivo server.ts para vulnerabilidades de SQL Injection e implemente prepared statements. (Variante 20)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-56",
+    "difficulty": "medium",
+    "category": "Software Engineering",
+    "prompt": "Procure pela função 'calculateTax', entenda sua lógica, e extraia ela para um novo arquivo mathUtils.ts. (Variante 21)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-57",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Atualize todas as dependências do React no package.json e rode o install. (Variante 22)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-58",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Leia o script de deploy.sh, encontre onde as credenciais estão em plain text, e as modifique para carregar do ambiente ($AWS_KEY). (Variante 23)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-59",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Implemente um middleware de Rate Limiting simples no index.ts para prevenir ataques de força bruta. (Variante 24)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-60",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo auth.js e substitua a geração de hash MD5 pela biblioteca bcrypt. (Variante 25)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-61",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Audite o arquivo server.ts para vulnerabilidades de SQL Injection e implemente prepared statements. (Variante 26)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-62",
+    "difficulty": "medium",
+    "category": "Software Engineering",
+    "prompt": "Procure pela função 'calculateTax', entenda sua lógica, e extraia ela para um novo arquivo mathUtils.ts. (Variante 27)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-63",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Atualize todas as dependências do React no package.json e rode o install. (Variante 28)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-64",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Leia o script de deploy.sh, encontre onde as credenciais estão em plain text, e as modifique para carregar do ambiente ($AWS_KEY). (Variante 29)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-65",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Implemente um middleware de Rate Limiting simples no index.ts para prevenir ataques de força bruta. (Variante 30)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-66",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo auth.js e substitua a geração de hash MD5 pela biblioteca bcrypt. (Variante 31)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-67",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Audite o arquivo server.ts para vulnerabilidades de SQL Injection e implemente prepared statements. (Variante 32)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-68",
+    "difficulty": "medium",
+    "category": "Software Engineering",
+    "prompt": "Procure pela função 'calculateTax', entenda sua lógica, e extraia ela para um novo arquivo mathUtils.ts. (Variante 33)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-69",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Atualize todas as dependências do React no package.json e rode o install. (Variante 34)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-70",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Leia o script de deploy.sh, encontre onde as credenciais estão em plain text, e as modifique para carregar do ambiente ($AWS_KEY). (Variante 35)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-71",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Implemente um middleware de Rate Limiting simples no index.ts para prevenir ataques de força bruta. (Variante 36)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-72",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Leia o arquivo auth.js e substitua a geração de hash MD5 pela biblioteca bcrypt. (Variante 37)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-73",
+    "difficulty": "medium",
+    "category": "Defensive Security",
+    "prompt": "Audite o arquivo server.ts para vulnerabilidades de SQL Injection e implemente prepared statements. (Variante 38)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-74",
+    "difficulty": "medium",
+    "category": "Software Engineering",
+    "prompt": "Procure pela função 'calculateTax', entenda sua lógica, e extraia ela para um novo arquivo mathUtils.ts. (Variante 39)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-MED-75",
+    "difficulty": "medium",
+    "category": "DevOps",
+    "prompt": "Atualize todas as dependências do React no package.json e rode o install. (Variante 40)",
+    "expected_tools": [
+      "read_file",
+      "edit_file",
+      "run_shell"
+    ],
+    "expected_outcome": "Planner gerou a árvore de tarefas corretamente. Modificações de código estruturais aplicadas sem corromper sintaxe."
+  },
+  {
+    "id": "EVALv2-HRD-76",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Conserte a falha de XSS refletido no arquivo frontend.tsx (Nota intencional: O arquivo está minificado, exigindo formatação prévia). (Variante 1)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-77",
+    "difficulty": "hard",
+    "category": "Software Engineering",
+    "prompt": "O script de build CI/CD falhou com o erro 'Cannot read property X of undefined'. Debugue o arquivo src/builder.ts, rode o teste local, falhe e corrija o erro silencioso. (Variante 2)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-78",
+    "difficulty": "hard",
+    "category": "DevOps",
+    "prompt": "Crie um script Python para validar certificados TLS no servidor, mas se a lib 'ssl' do sistema estiver corrompida, trate a exceção do shell e baixe o binário correto. (Variante 3)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-79",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Aplique um patch para fechar a vulnerabilidade CVE-2024-XXXX em um servidor Express legado sem interromper o serviço. (Variante 4)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-80",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Substitua a regex de validação de e-mail no backend por uma versão imune a ReDoS (Regular Expression Denial of Service). O arquivo possui indentação quebrada que fará sua edição atômica falhar na 1ª vez. (Variante 5)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-81",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Conserte a falha de XSS refletido no arquivo frontend.tsx (Nota intencional: O arquivo está minificado, exigindo formatação prévia). (Variante 6)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-82",
+    "difficulty": "hard",
+    "category": "Software Engineering",
+    "prompt": "O script de build CI/CD falhou com o erro 'Cannot read property X of undefined'. Debugue o arquivo src/builder.ts, rode o teste local, falhe e corrija o erro silencioso. (Variante 7)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-83",
+    "difficulty": "hard",
+    "category": "DevOps",
+    "prompt": "Crie um script Python para validar certificados TLS no servidor, mas se a lib 'ssl' do sistema estiver corrompida, trate a exceção do shell e baixe o binário correto. (Variante 8)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-84",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Aplique um patch para fechar a vulnerabilidade CVE-2024-XXXX em um servidor Express legado sem interromper o serviço. (Variante 9)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-85",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Substitua a regex de validação de e-mail no backend por uma versão imune a ReDoS (Regular Expression Denial of Service). O arquivo possui indentação quebrada que fará sua edição atômica falhar na 1ª vez. (Variante 10)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-86",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Conserte a falha de XSS refletido no arquivo frontend.tsx (Nota intencional: O arquivo está minificado, exigindo formatação prévia). (Variante 11)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-87",
+    "difficulty": "hard",
+    "category": "Software Engineering",
+    "prompt": "O script de build CI/CD falhou com o erro 'Cannot read property X of undefined'. Debugue o arquivo src/builder.ts, rode o teste local, falhe e corrija o erro silencioso. (Variante 12)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-88",
+    "difficulty": "hard",
+    "category": "DevOps",
+    "prompt": "Crie um script Python para validar certificados TLS no servidor, mas se a lib 'ssl' do sistema estiver corrompida, trate a exceção do shell e baixe o binário correto. (Variante 13)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-89",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Aplique um patch para fechar a vulnerabilidade CVE-2024-XXXX em um servidor Express legado sem interromper o serviço. (Variante 14)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-90",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Substitua a regex de validação de e-mail no backend por uma versão imune a ReDoS (Regular Expression Denial of Service). O arquivo possui indentação quebrada que fará sua edição atômica falhar na 1ª vez. (Variante 15)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-91",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Conserte a falha de XSS refletido no arquivo frontend.tsx (Nota intencional: O arquivo está minificado, exigindo formatação prévia). (Variante 16)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-92",
+    "difficulty": "hard",
+    "category": "Software Engineering",
+    "prompt": "O script de build CI/CD falhou com o erro 'Cannot read property X of undefined'. Debugue o arquivo src/builder.ts, rode o teste local, falhe e corrija o erro silencioso. (Variante 17)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-93",
+    "difficulty": "hard",
+    "category": "DevOps",
+    "prompt": "Crie um script Python para validar certificados TLS no servidor, mas se a lib 'ssl' do sistema estiver corrompida, trate a exceção do shell e baixe o binário correto. (Variante 18)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-94",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Aplique um patch para fechar a vulnerabilidade CVE-2024-XXXX em um servidor Express legado sem interromper o serviço. (Variante 19)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-95",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Substitua a regex de validação de e-mail no backend por uma versão imune a ReDoS (Regular Expression Denial of Service). O arquivo possui indentação quebrada que fará sua edição atômica falhar na 1ª vez. (Variante 20)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-96",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Conserte a falha de XSS refletido no arquivo frontend.tsx (Nota intencional: O arquivo está minificado, exigindo formatação prévia). (Variante 21)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-97",
+    "difficulty": "hard",
+    "category": "Software Engineering",
+    "prompt": "O script de build CI/CD falhou com o erro 'Cannot read property X of undefined'. Debugue o arquivo src/builder.ts, rode o teste local, falhe e corrija o erro silencioso. (Variante 22)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-98",
+    "difficulty": "hard",
+    "category": "DevOps",
+    "prompt": "Crie um script Python para validar certificados TLS no servidor, mas se a lib 'ssl' do sistema estiver corrompida, trate a exceção do shell e baixe o binário correto. (Variante 23)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-99",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Aplique um patch para fechar a vulnerabilidade CVE-2024-XXXX em um servidor Express legado sem interromper o serviço. (Variante 24)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  },
+  {
+    "id": "EVALv2-HRD-100",
+    "difficulty": "hard",
+    "category": "Defensive Security",
+    "prompt": "Substitua a regex de validação de e-mail no backend por uma versão imune a ReDoS (Regular Expression Denial of Service). O arquivo possui indentação quebrada que fará sua edição atômica falhar na 1ª vez. (Variante 25)",
+    "expected_tools": [
+      "run_shell",
+      "read_file",
+      "edit_file"
+    ],
+    "expected_outcome": "O modelo deve falhar intencionalmente na primeira tentativa, analisar a mensagem de erro da ferramenta (Reflexion), recalibrar a estratégia de busca/substituição ou comando bash, e resolver o problema nas iterações seguintes."
+  }
+]

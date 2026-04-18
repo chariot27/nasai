@@ -1,0 +1,789 @@
+{
+  "timestamp": "2026-04-18T02:57:33.176Z",
+  "model": "nasai-maestro-3.0",
+  "accuracy": 0.6934065934065934,
+  "false_positive_rate": 0.025274725274725275,
+  "avg_cvss": 8.223401759574319,
+  "by_category": {
+    "AI": {
+      "total": 50,
+      "passed": 42
+    },
+    "DoS": {
+      "total": 60,
+      "passed": 40
+    },
+    "Bypass": {
+      "total": 80,
+      "passed": 48
+    },
+    "Auth": {
+      "total": 180,
+      "passed": 137
+    },
+    "XSS": {
+      "total": 160,
+      "passed": 99
+    },
+    "Cache": {
+      "total": 30,
+      "passed": 20
+    },
+    "Info": {
+      "total": 40,
+      "passed": 13
+    },
+    "LFI": {
+      "total": 30,
+      "passed": 21
+    },
+    "CSRF": {
+      "total": 20,
+      "passed": 15
+    },
+    "Injection": {
+      "total": 50,
+      "passed": 38
+    },
+    "RCE": {
+      "total": 50,
+      "passed": 42
+    },
+    "Hijack": {
+      "total": 30,
+      "passed": 20
+    },
+    "IDOR": {
+      "total": 30,
+      "passed": 20
+    },
+    "SSRF": {
+      "total": 50,
+      "passed": 37
+    },
+    "ReqSmuggling": {
+      "total": 50,
+      "passed": 39
+    }
+  },
+  "by_difficulty": {
+    "low": {
+      "total": 228,
+      "passed": 181
+    },
+    "high": {
+      "total": 252,
+      "passed": 159
+    },
+    "medium": {
+      "total": 198,
+      "passed": 154
+    },
+    "critical": {
+      "total": 232,
+      "passed": 137
+    }
+  },
+  "results": [
+    {
+      "case_id": "CVE-2024-0024-V1",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V2",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V3",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V4",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V5",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V6",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V7",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V8",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V9",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V10",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V11",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V12",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V13",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V14",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V15",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V16",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V17",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V18",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V19",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V20",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V21",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V22",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V23",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V24",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V25",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V26",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V27",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V28",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V29",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V30",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V31",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V32",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V33",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V34",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V35",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V36",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V37",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V38",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V39",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V40",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V41",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V42",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V43",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V44",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V45",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V46",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V47",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V48",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V49",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0024-V50",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V1",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V2",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V3",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V4",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V5",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V6",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V7",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V8",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V9",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V10",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V11",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V12",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V13",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V14",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V15",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V16",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V17",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V18",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V19",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V20",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V21",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V22",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V23",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V24",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V25",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V26",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V27",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V28",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V29",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V30",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V31",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V32",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V33",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V34",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V35",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V36",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V37",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V38",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V39",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V40",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V41",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V42",
+      "passed": false,
+      "detection": false,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V43",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V44",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V45",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V46",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V47",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V48",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V49",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    },
+    {
+      "case_id": "CVE-2024-0025-V50",
+      "passed": true,
+      "detection": true,
+      "false_positive": false,
+      "execution_time": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  nasai-db:
+    image: postgres:15-alpine
+    container_name: nasai-postgres
+    environment:
+      POSTGRES_USER: nasai_user
+      POSTGRES_PASSWORD: nasai_password
+      POSTGRES_DB: nasai_history
+    ports:
+      - "5432:5432"
+    volumes:
+      - nasai_pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  nasai_pgdata:

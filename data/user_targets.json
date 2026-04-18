@@ -1,0 +1,18 @@
+[
+  {
+    "id": "t1776485517187",
+    "domain": "bancocn.com",
+    "intent": "full",
+    "tools": [
+      "subfinder",
+      "nmap",
+      "nmap-vuln",
+      "whatweb",
+      "host",
+      "whois"
+    ],
+    "results": null,
+    "timestamp": "2026-04-18T04:11:57.187Z",
+    "learned": false
+  }
+]
