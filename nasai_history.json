@@ -83,6 +83,12 @@
     },
     "cli-1776538124814": {
       "tokens_used": 0
+    },
+    "cli-1776622173438": {
+      "tokens_used": 0
+    },
+    "cli-1776622190900": {
+      "tokens_used": 0
     }
   },
   "messages": [
@@ -211,6 +217,12 @@
       "role": "assistant",
       "content": "▸ TECHS\nSem dados detalhados.\n\n▸ HTTP\nHTTP/1.1 302 Found\r\nDate: Sat, 18 Apr 2026 18:48:44 GMT\r\nServer: Apache\r\nLocation: https://gov.br/\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\nHTTP/1.1 302 Found\r\nDate: Sat, 18 Apr 2026 18:48:45 GMT\r\nLocation: https://www.gov.br/\r\nContent-Type: text/html; charset=iso-8859-1\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nTransfer-Encoding: chunked\r\n\r\nHTTP/1.1 403 Forbidden\r\nDate: Sat, 18 Apr 2026 18:48:45 GMT\r\nContent-Type: text/html; charset=iso-8859-1\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nTransfer-Encoding: chunked\r\n\r\n\n\n[MAESTRO INTELLIGENCE - TECNOLOGIAS DETECTADAS]\n  > Web Server: Apache\n",
       "created_at": "2026-04-18T18:48:59.728Z"
+    },
+    {
+      "session_id": "cli-1776622173438",
+      "role": "assistant",
+      "content": "▸ TECHS\nSem dados detalhados.\n\n▸ HTTP\nHTTP/1.1 404 Not Found\r\nContent-Length: 315\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sun, 19 Apr 2026 18:09:32 GMT\r\nConnection: close\r\n\r\n\n",
+      "created_at": "2026-04-19T18:09:38.729Z"
     }
   ],
   "experience": [
@@ -223,6 +235,11 @@
       "session_id": "cli-1776532670781",
       "trajectory": "[{\"role\":\"system\",\"content\":\"You are nasai-maestro-9.0, a state-of-the-art autonomous AI Red Team agent. \\n      CRITICAL INSTRUCTIONS:\\n      1. You must execute user requests using the available tools with maximum precision.\\n      2. If a tool is missing (e.g., 'command not found'), you are authorized to attempt installation using 'apt' or other package managers via run_shell.\\n      3. All installed tools must be used immediately to fulfill the request.\\n      4. For long-running scans (nmap, subfinder), wait for the tool to complete. The timeout is set to 5 minutes.\\n      5. Analyze tool outputs to find vulnerabilities and provide a comprehensive summary.\"},{\"role\":\"user\",\"content\":\"realize um subfinder e httpx pra ver os subdominios ativos em bancocn.com e salve em um arquivo chamado sub1s.txt\"},{\"content\":\"Entendido. Vou processar o alvo bancocn.com e salvar os resultados em sub1s.txt.\",\"tool_calls\":[{\"id\":\"call_1776532670782\",\"type\":\"function\",\"function\":{\"name\":\"run_shell\",\"arguments\":\"{\\\"command\\\":\\\"subfinder -d bancocn.com -silent | ~/go/bin/httpx -silent > sub1s.txt\\\"}\"}}]},{\"role\":\"tool\",\"tool_call_id\":\"call_1776532670782\",\"name\":\"run_shell\",\"content\":\"Command executed successfully with no output.\"},{\"role\":\"system\",\"content\":\"The task has been completed successfully. Provide a summary to the user now.\"}]",
       "created_at": "2026-04-18T17:18:22.284Z"
+    },
+    {
+      "session_id": "cli-1776622190900",
+      "trajectory": "[{\"role\":\"system\",\"content\":\"You are nasai-maestro-9.0, a state-of-the-art autonomous AI Red Team agent. \\n      CRITICAL INSTRUCTIONS:\\n      1. You must execute user requests using the available tools with maximum precision.\\n      2. If a tool is missing (e.g., 'command not found'), you are authorized to attempt installation using 'apt' or other package managers via run_shell.\\n      3. All installed tools must be used immediately to fulfill the request.\\n      4. For long-running scans (nmap, subfinder), wait for the tool to complete. The timeout is set to 5 minutes.\\n      5. Analyze tool outputs to find vulnerabilities and provide a comprehensive summary.\"},{\"role\":\"user\",\"content\":\"descubra subdominios do domain attime.com.br salve em um arquivo\"},{\"content\":\"Entendido. Vou processar o alvo attime.com.br e salvar os resultados em results.txt.\",\"tool_calls\":[{\"id\":\"call_1776622190902\",\"type\":\"function\",\"function\":{\"name\":\"run_shell\",\"arguments\":\"{\\\"command\\\":\\\"subfinder -d attime.com.br -silent > results.txt\\\"}\"}}]},{\"role\":\"tool\",\"tool_call_id\":\"call_1776622190902\",\"name\":\"run_shell\",\"content\":\"Command executed successfully with no output.\"},{\"role\":\"system\",\"content\":\"The task has been completed successfully. Provide a summary to the user now.\"}]",
+      "created_at": "2026-04-19T18:10:03.754Z"
     }
   ]
 }

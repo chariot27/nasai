@@ -105,9 +105,15 @@ export class AgentEngine {
           this.lastAction = actionKey;
           
           if (toolResult.includes('successfully') || !isError) {
-            onUpdate(`Task completed via tool execution.`);
-            isDone = true;
-            break;
+            const isResearch = userInput.toLowerCase().includes('pesquisa') || userInput.toLowerCase().includes('leia') || userInput.toLowerCase().includes('manual');
+            
+            if (!isResearch) {
+              onUpdate(`Task completed via tool execution.`);
+              isDone = true;
+              break;
+            } else {
+              onUpdate(`Learning step complete. Continuing research...`);
+            }
           }
 
           if (isError) {

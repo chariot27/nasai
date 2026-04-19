@@ -326,7 +326,7 @@ class NasaiMaestro40ML {
   }
 
   private extractDomain(prompt: string): string | null {
-    const match = prompt.match(/([a-zA-Z0-9][-a-zA-Z0-9]*\.[a-zA-Z]{2,})/);
+    const match = prompt.match(/([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/);
     return match ? match[1] : null;
   }
 

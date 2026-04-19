@@ -54,7 +54,7 @@ class FlexibleAI {
   }
 
   private generateTests(task: string): { cmd: string; validator: (o: string) => boolean; timeout?: number }[] {
-    const domainMatch = task.match(/([a-zA-Z0-9][-a-zA-Z0-9]*\.[a-zA-Z]{2,})/);
+    const domainMatch = task.match(/([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/);
     const domain = domainMatch ? domainMatch[1] : null;
     
     task = task.toLowerCase();
@@ -100,7 +100,7 @@ class FlexibleAI {
   }
 
   private formatOutput(task: string, results: TaskResult[], analysis: Analysis): string {
-    const domainMatch = task.match(/([a-zA-Z0-9][-a-zA-Z0-9]*\.[a-zA-Z]{2,})/);
+    const domainMatch = task.match(/([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/);
     const target = domainMatch ? domainMatch[1] : 'Alvo';
     
     return `╔══��═══════════════════════════════════════════════════════╗
