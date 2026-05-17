@@ -1,4 +1,4 @@
-# NASAI MAESTRO 9.0 
+# NAS.AI MAESTRO 9.0 
 
 **Autonomous, Local-First AI Agent for Dynamic Red Teaming & 0-Day Research**
 
